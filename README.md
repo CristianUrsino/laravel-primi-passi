@@ -7,6 +7,16 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## TRACCIA
+Per prima cosa, creiamo un nuovo progetto Laravel 9, utilizzando questo comando:
+composer create-project laravel/laravel:^9.2 laravel-primi-passi
+Al termine dell'installazione, entriamo nella cartella del progetto
+cd laravel-primi-passi
+e avviamo l'artisan serve con uno di questi due comandi:
+php artisan serve oppure php -S localhost:8000 -t public
+A questo punto, iniziamo a prendere confidenza con le rotte e le views: cancelliamo la view welcome.blade.php e creiamo una nostra homepage. Facciamo quindi sì che la rotta / visualizzi home.blade.php
+Inizialmente stampiamo un Hello World, poi passiamo dei dati alla view in modo da visualizzarli dinamicamente con Blade.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
