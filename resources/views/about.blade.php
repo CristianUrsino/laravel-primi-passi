@@ -13,6 +13,7 @@
                 <li><a href="/about">About</a></li>
             </ul>
         </header>
-       <h1>HOME</h1> 
+       <h1>ABOUT</h1>
+       <h3>{{$text}}</h3> 
     </body>
 </html>

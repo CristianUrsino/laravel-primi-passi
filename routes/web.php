@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/about', function(){
+    $data = [
+        'text'=>'HELLO WORLD'
+    ];
+    return view('about',$data);
+});
